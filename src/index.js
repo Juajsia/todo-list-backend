@@ -1,6 +1,7 @@
 import { app } from './app.js'
 import { sequelize } from './db/conecction.js'
 import './models/task.model.js'
+import 'dotenv/config'
 
 const port = process.env.PORT || 3000
 
